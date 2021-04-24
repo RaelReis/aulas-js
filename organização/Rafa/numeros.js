@@ -8,3 +8,9 @@ console.log(Number.isInteger(peso2))
 const avaliacao1 = 9.8561
 const avaliacao2 = 5.8561
 
+const total = avaliacao1 * peso1 + avaliacao2 * peso2
+const media = total / (peso1 + peso2)
+
+console.log(media.toFixed(2))
+console.log(media.toString()) // Formata uma variavel de number para string
+console.log(typeof media)
