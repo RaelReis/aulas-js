@@ -6,6 +6,7 @@ console.log(concatenacao, template)
 
 console.log(`1 + 1 = ${1 + 1}`)
 
-const up = text => text.toUpperCase()
+const up = texto => texto.toUpperCase()  // Função
 
-console.log(up('alho'))
+console.log(`ei... ${up('alho')}!`)
+console.log(`ou... ${up('teu nome é ou?')}!`)
