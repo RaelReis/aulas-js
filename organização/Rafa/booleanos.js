@@ -4,8 +4,7 @@ console.log(isAtivo)
 isAtivo = true
 console.log(isAtivo)
 
-/// uma exclmaçao ! inverte o bool e duas !! mantem 
-
+// Uma exclamaçao ! inverte o bool e duas !! mantem 
 
 console.log('os verdadeisros...')
 console.log(!!3)
@@ -21,8 +20,13 @@ console.log('os falsos...')
 console.log(!!0)
 console.log(!!'')
 console.log(!!null)
-console.log(!!Nan)
+console.log(!!NaN)
 console.log(!!undefined)
 console.log(!!(isAtivo = false))
 
+console.log('para finalizar...')
 console.log(!!('')|| null || 0 || ' ')
+
+let teste = ''
+console.log(teste || 'Desconhecido')
+
