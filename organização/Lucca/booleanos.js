@@ -6,6 +6,8 @@ console.log(isAtivo)
 
 /// uma exclmaçao ! inverte o bool e duas !! mantem 
 
+isAtivo = 1
+console.log(!!isAtivo)
 
 console.log('os verdadeisros...')
 console.log(!!3)
@@ -19,4 +21,3 @@ console.log(!!(isAtivo = true))
 
 console.log('os falsos...')
 console.log(!!0)
-
