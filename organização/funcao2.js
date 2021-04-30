@@ -16,3 +16,8 @@ console.log(soma(2,3))
 //retorno implícito
 const subtracao = (a,b) => a - b
 console.log(subtracao(2,3))
+
+const cidade = (pais, estado) =>{
+    return pais, estado
+}
+console.log(cidade('brazil','sp'))
