@@ -3,6 +3,8 @@ const imprimirSoma = function(a,b) {
     console.log(a + b)
 }
 
+
+
 imprimirSoma(2,3)
 
 //armazenamendo uma funcao arrow em uma variavel
