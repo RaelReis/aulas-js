@@ -5,4 +5,4 @@ function rand([min = 0, max = 1000 ]) {
 }
 
 console.log(rand([]))
-console.log()
+console.log(rand([,5]))
